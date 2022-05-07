@@ -1329,6 +1329,12 @@ let vowelRegex = /[aeiou]/gi; // Change this line
 let result = quoteSample.match(vowelRegex); // Change this line
 
 
+function stringToArray(string){
+
+  return string.split(" ");
+
+}
+
 
 
 
