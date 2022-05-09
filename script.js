@@ -1341,6 +1341,10 @@ let myRegex = /s+/g; // Change this line
 let result = difficultSpelling.match(myRegex);
 
 
+function otherAngle(a, b) {
+  return 180-(a+b)
+}
+
 
 
 
