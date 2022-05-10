@@ -1351,6 +1351,11 @@ let calRegex = /^Cal/; // Change this line
 let result = calRegex.test(rickyAndCal);
 
 
+function binToDec(bin){
+  return parseInt(bin,2)
+}
+
+
 
 
 
